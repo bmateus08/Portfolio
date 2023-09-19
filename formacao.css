@@ -1,0 +1,83 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    background-image:url(imagens/32947939_491362538070.jpg);
+    background-position: center;
+    background-size: 112%;
+    font-family: OCR A Std, monospace;
+}
+
+h1{
+    color: #00fff5;
+    font-size: 60px;
+    margin-left: 50px;
+    font-family: 'Russo One';
+    letter-spacing: 7px;
+}
+
+.content-section{
+    background-color: white;
+    margin-left: 50px;
+    margin-top: px;
+    
+    
+}
+
+ 
+
+.card{
+    width:500px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+
+.card img{
+    width: 500px;
+    display: block;
+    margin-left: -15px;
+}
+
+.card:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
+}
+
+.card p{
+    color: white;
+    font-size: 30px;
+    font-family: OCR A Std, monospace;
+}
+    
+#escolaridade{
+
+    font-size: 25px;
+    
+}
+
+#ensino{
+    font-size: 25px;
+}
+
+#cursos{
+    font-size: 25px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
