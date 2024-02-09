@@ -1,83 +1,66 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
-body{
-    background-image:url(imagens/32947939_491362538070.jpg);
+/* Adicione ou modifique estas regras CSS no seu arquivo formacao.css */
+body {
+    background-image: url(imagens/32947939_491362538070.jpg);
     background-position: center;
     background-size: 112%;
     font-family: OCR A Std, monospace;
 }
 
-h1{
+h1 {
     color: #00fff5;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 50px;
     font-family: 'Russo One';
-    letter-spacing: 7px;
+    font-family: OCR A Std, monospace;
 }
 
-.content-section{
-    background-color: white;
+.content-section {
+    
     margin-left: 50px;
-    margin-top: px;
-    
-    
+    margin-top: 20px; /* Adicione um valor desejado para a margem superior */
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    margin: 20px; /* Adicione margens ao redor do main conforme necessário */
 }
 
- 
-
-.card{
-    width:500px;
-    float: left;
+.card {
+    width: 30%; /* Ajuste conforme necessário para atender às suas preferências */
     box-sizing: border-box;
     margin-top: 50px;
-
 }
 
-
-.card img{
-    width: 500px;
+.card img {
+    width: 100%; /* Altere para 100% para garantir que a imagem ocupe toda a largura do card */
     display: block;
     margin-left: -15px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.10);
     transition: 0.5s;
+    
 }
 
-.card p{
+.card p {
     color: white;
     font-size: 30px;
     font-family: OCR A Std, monospace;
 }
-    
-#escolaridade{
 
-    font-size: 25px;
-    
-}
-
-#ensino{
+#escolaridade {
     font-size: 25px;
 }
 
-#cursos{
+#ensino {
     font-size: 25px;
 }
 
-a:link{
+#cursos {
+    font-size: 25px;
+}
+
+a:link {
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-

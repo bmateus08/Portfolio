@@ -5,6 +5,7 @@ body{
     color: white;
     font-family: OCR A Std, monospace;
     margin: 0 auto;
+    
         
     
     
@@ -42,30 +43,27 @@ a{
 
 a:hover{
     color: #00CED1;
-    transition: 0.3s all;
+    transition: 0.6s all;
 }
 
 #inscreva-se-btn{
     border: 2px solid rgb(0, 206, 209);
     padding: 10px;
     border-radius: 20px;
+    margin-left: 43px;
 }
 
 #inscreva-se-btn:hover{
     background-color: rgb(0, 206, 209);
     color: white;
+    
 }
 
 #title{
     flex-direction: column;
     line-height: 10px;
     font-size: 30px;
-   
     display: flex;
-    
-
-
-    
 }
 
 h1{
@@ -114,26 +112,43 @@ p{
     padding-top: 20px
 }
 
+.botao{
+    color: white;
+    margin-top: 50px;
+    margin-left: -15px;
+    font-size: 30px;
+    border: 2px solid rgb(0, 206, 209);
+    padding: 30px;
+    width: 215px;
+    border-radius: 20px;
+    text-decoration: none !important;
+}
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    
+.botao:hover{
+    background-color: rgb(0, 206, 209);
+    transition: 0.6s all;
     
 }
 
+a:link{
+    text-decoration: none;
+}
+
+
 form [type="submit"]{
     height: 50%;
-    width: 50%;
+    width: 100%;
     background-color: rgb(0, 206, 209);
     color: white;
     font-weight: bold;
+    font-size: 23px;
+    
     
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
+    
     
 }
 
@@ -201,7 +216,11 @@ font-size: 30px;
     
     .email{
         font-size: 40px;
+
+        
     }
+
+    
 
 
 }
