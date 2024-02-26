@@ -1,8 +1,5 @@
-/* Adicione ou modifique estas regras CSS no seu arquivo formacao.css */
 body {
-    background-image: url(imagens/32947939_491362538070.jpg);
-    background-position: center;
-    background-size: 112%;
+    background-color: rgb(34, 34, 34);
     font-family: OCR A Std, monospace;
 }
 
@@ -15,32 +12,27 @@ h1 {
 }
 
 .content-section {
-    
     margin-left: 50px;
-    margin-top: 20px; /* Adicione um valor desejado para a margem superior */
+    margin-top: 20px; 
     display: flex;
     justify-content: space-between;
 }
-main {
-    margin: 20px; /* Adicione margens ao redor do main conforme necessário */
-}
 
 .card {
-    width: 30%; /* Ajuste conforme necessário para atender às suas preferências */
+    width: 30%; 
     box-sizing: border-box;
     margin-top: 50px;
 }
 
 .card img {
-    width: 100%; /* Altere para 100% para garantir que a imagem ocupe toda a largura do card */
+    width: 100%; 
     display: block;
     margin-left: -15px;
 }
 
 .card:hover {
     transform: scale(1.10);
-    transition: 0.5s;
-    
+transition: 0.5s;     
 }
 
 .card p {
@@ -49,18 +41,16 @@ main {
     font-family: OCR A Std, monospace;
 }
 
-#escolaridade {
-    font-size: 25px;
-}
-
-#ensino {
-    font-size: 25px;
-}
-
-#cursos {
+#escolaridade, #ensino, #cursos {
     font-size: 25px;
 }
 
 a:link {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .card{
+        margin-top: 200px;
+    }
 }

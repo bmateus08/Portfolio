@@ -11,12 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(imagens/fundorosa.jpg);
-    background-position: center;
-    background-size: 100%;
+    background-color: rgb(34, 34, 34);
 }
 
-h1{
+h1 {
     color: black;
 }
 
@@ -91,12 +89,19 @@ h1{
     color: white;
 }
 
-.container .card:hover .content a{
+.container .card:hover .content a {
     color:black;
     background-color: white;
 }
 
-
-a:link{
+a:link {
     text-decoration: none;
+}
+
+.dio{
+    margin-top: -20px;
+}
+
+.nomedio{
+    margin-top: -15px;
 }
